@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-graph-engine"
+version = "0.2.0"
+description = "A lightweight Python graph engine for nodes, edges, relationships and graph traversal."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+
+authors = [
+    {name = "Yassine Chaachaa"}
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
