@@ -1,7 +1,6 @@
 # Adaptive Graph Engine
 
-A lightweight Python graph engine for modelling directed graphs, dependencies, relationships and weighted paths.
-
+Adaptive Graph Engine is a Python graph engine for modelling and analysing directed dependency networks. It provides path discovery, BFS/DFS traversal, weighted shortest paths, cycle detection, topological ordering, and analysis of relationship-aware graph structures.
 ## Features
 
 - Directed graph representation

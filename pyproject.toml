@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "adaptive-graph-engine"
 version = "0.2.0"
-description = "A lightweight Python graph engine for nodes, edges, relationships and graph traversal."
+description = "A Python graph engine for dependency intelligence, path discovery, graph traversal and relationship-aware analysis."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
