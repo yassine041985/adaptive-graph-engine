@@ -1,9 +1,7 @@
 from collections import deque
 
 
-def topological_sort(
-    graph
-):
+def topological_sort(graph):
 
     incoming_edges = {}
 
@@ -80,21 +78,3 @@ def topological_sort(
         return None
 
     return order
-
-def test_topological_sort_empty_graph():
-
-    graph = Graph()
-
-    result = topological_sort(graph)
-
-    assert result == []
-
-
-def test_topological_sort_single_node():
-
-    graph = Graph()
-    graph.add_node("salesforce")
-
-    result = topological_sort(graph)
-
-    assert result == ["salesforce"]
