@@ -2,7 +2,7 @@
 
 **Model dependencies. Analyse relationships. Detect what changed.**
 
-Adaptive Graph Engine is a lightweight, open-source Python library for modelling, analysing and comparing directed dependency graphs.
+Adaptive Graph Engine is an open-source Python graph engine designed for dependency modelling, relationship analysis and change detection across evolving graph structures.
 
 Whether you're working with data pipelines, software components, workflows or knowledge relationships, the engine helps answer three important questions:
 
